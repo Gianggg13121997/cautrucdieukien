@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Check Tuổi</h1>
+    <input type="text" placeholder=" Nhập số tuổi" id="age">
+    <button onclick="check()"> Kiểm tra</button>
+    <script>
+        function check(){
+            let tuoi = document.getElementById("age").value;
+            if( tuoi > 18){
+                alert("Đủ tuổi")
+            } else{
+                alert("không đủ tuổi")
+            }
+        }
+    </script>
+</body>
+</html>
