@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> kiểm tra chẵn lẻ</h2>
+    <input type="text" placeholder=" Nhập số vào nào" id="number">
+    <button onclick="check()"> Kiểm tra</button>
+    <script>
+        function check(){
+            let a = document.getElementById("number").value;
+            if ( a % 2 == 0){
+                alert(a + " là chẵn")
+            } else {
+                alert ( a + " là lẻ")
+            }
+        }
+    </script>
+</body>
+</html>
